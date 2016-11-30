@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: Test GMaps
+  host: Test-GMaps
+  disk_quota: 1024M
